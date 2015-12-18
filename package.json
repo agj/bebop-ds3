@@ -1,0 +1,18 @@
+{
+  "name": "bebop-ds3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flyd": "^0.1.15",
+    "gamepad": "^1.1.0",
+    "node-bebop": "^0.3.0",
+    "ramda": "^0.17.1"
+  },
+  "private": true
+}
