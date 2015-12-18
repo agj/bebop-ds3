@@ -11,6 +11,7 @@
   "dependencies": {
     "flyd": "^0.1.15",
     "gamepad": "^1.1.0",
+    "keypress": "^0.2.1",
     "node-bebop": "^0.3.0",
     "ramda": "^0.17.1"
   },

@@ -25,6 +25,7 @@ module.exports.init = function init(drone) {
 
 	var R = require('ramda');
 	var gamepad = require('gamepad');
+	var keypress = require('keypress');
 
 	gamepad.init();
 
@@ -61,5 +62,16 @@ module.exports.init = function init(drone) {
 		console.log(action);
 		drone[action]();
 	});
+
+	keypress(process.stdin);
+	process.stdin.on('keypress', function (ch, key) {
+		if (key && key.ctrl && key.name == 'c') process.exit();
+		if (ch > 0 && ch <= 9) {
+			console.log("Changing to controller number " + ch);
+			padID = ch - 1;
+		}
+	});
+	process.stdin.setRawMode(true);
+	process.stdin.resume();
 
 }
