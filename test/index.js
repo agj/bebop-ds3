@@ -1,11 +1,5 @@
 'use strict';
 
-// To simplify debugging:
-try {
-	// require('superstack');
-	// require('clarify');
-} catch (e) { }
-
 var bebop = require('node-bebop');
 var R = require('ramda');
 var flyd = require('flyd');

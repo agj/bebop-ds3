@@ -9,7 +9,6 @@ var mapping = {
 		3: [ 'up', 'down' ],                    // right stick y
 	},
 	button: {
-		// 3:  'disableEmergency', // start
 		12: 'takeOff',             // triangle
 		14: 'land',                // cross
 		15: 'stop',                // square
