@@ -2,7 +2,7 @@
 bebop-ds3
 =========
 
-An simple tool for Node (JavaScript) that lets you control a Parrot Bebop drone with a DualShock 3 or Sixaxis PlayStation 3 controller connected via Bluetooth to your computer.
+A simple tool for Node (JavaScript) that lets you control a Parrot Bebop drone with a DualShock 3 or Sixaxis PlayStation 3 controller connected via Bluetooth to your computer.
 
 Currently only works with Node 0.12 or earlier.
 
